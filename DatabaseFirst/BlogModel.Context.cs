@@ -22,7 +22,7 @@ namespace DatabaseFirst
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            throw new UnintentionalCodeFirstException( );
         }
     
         public virtual DbSet<table_1> table_1 { get; set; }
